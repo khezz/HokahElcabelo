@@ -4,10 +4,10 @@ import Navbar from '../../Components/Navbar'
 function Homepage(){
     return(
         <div>
-            <Head />
+            <Head title="Hookah-Home"/>
             <Navbar />
             <div>
-                <h1>Tabacaria El cabelo</h1>
+                <h1>Hookah El cabelo</h1>
                 
             </div>
         </div>

@@ -1,12 +1,14 @@
 import Head from 'next/head'
-
-function head(){
+import PropTypes from 'prop-types'
+function head({title}){
     return(
         <div>
             <Head>  
-                <title>Tabacaria El Cabelo</title>
+                <title>{title}</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
             </Head>
         </div>
     );
-} export default head;
+} 
+
+export default head;
