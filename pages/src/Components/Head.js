@@ -10,5 +10,4 @@ function head({title}){
         </div>
     );
 } 
-
 export default head;

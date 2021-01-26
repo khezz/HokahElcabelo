@@ -8,7 +8,6 @@ function Homepage(){
             <Navbar />
             <div>
                 <h1>Hookah El cabelo</h1>
-                
             </div>
         </div>
     )
