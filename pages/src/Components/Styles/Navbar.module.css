@@ -1,0 +1,45 @@
+/* @import "~font-awesome/scss/font-awesome.scss"; */
+.container {
+    padding: 0;
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 60%;
+    height: 45px;
+}
+.container ul {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    /* background-color: rgba(0,0,0,.6); */
+    border-bottom-left-radius: 20px;
+}
+.container li{
+    display: block;
+    width: 26vh;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    margin: 0px auto;
+}
+.container a {
+    display: block;
+    /* color: #fff; */
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    transition: 0.2s;
+    font-size: 1em;
+}
+.container a:hover {
+    background-color: rgba(0,0,0,.8);
+    /* border-bottom-left-radius: 20px; */
+    border-radius: 5px;
+    color: #dedede;
+}
