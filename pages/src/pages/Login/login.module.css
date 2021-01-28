@@ -1,0 +1,74 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: Rgba(0,0,0,.8);
+}
+.container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+}
+.inputIcon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 45px;
+    width: 80%;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: Rgba(255,255,255,.8);
+    color: rgba(0, 0, 0, .7);
+    cursor: auto;
+}
+.inputIcon input {
+    width: 100%;
+    height: 100%;
+    padding-left: 15%;
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    color: rgba(0, 0, 0, .7);
+}
+.inputIcon i {
+    position: absolute;
+    z-index: 10;
+    font-size: 24px;
+    padding-left: 20px;
+}
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 50%;
+    margin: 10px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    background: linear-gradient(to right, #7B68EE , #40E0D0, #ADD8E6);
+    color: rgba(0, 0, 0, .7);
+    cursor: pointer;
+}
+.button i {
+    margin-left: 10px;
+    font-size: 20px;
+}
+.register {
+    color: #F0FFFF;
+    text-decoration: none;
+    font-weight: 100;
+}
+.register a {
+    font-weight: 600;
+}
+.register a:hover {
+    font-weight: 900;
+}
