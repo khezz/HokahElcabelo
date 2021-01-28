@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Style from './login.module.css';
+import Style from '../styles/login.module.css';
 import {library} from '@fortawesome/fontawesome-svg-core';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {fas} from '@fortawesome/free-solid-svg-icons';
@@ -22,7 +22,7 @@ function login(){
                     Log In
                     <i> <FontAwesomeIcon icon="arrow-circle-right"/> </i>
                 </button>
-                <h3 className={Style.register}>Not registered yet? <Link href="../../Homepage/homepage"><a>Register!</a></Link></h3>
+                <h3 className={Style.register}>Not registered yet? <Link href="./homepage"><a>Register!</a></Link></h3>
             </form>
         </div>
     );

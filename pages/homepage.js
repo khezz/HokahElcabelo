@@ -1,7 +1,7 @@
 import Head from '../Components/Head'
 import Navbar from '../Components/Navbar'
 import Produto from '../Components/produto'
-import Style from './Homepage.module.css'
+import Style from '../styles/HomePage.module.css'
 
 
 function Homepage(){
