@@ -1,6 +1,6 @@
-import Head from '../../Components/Head'
-import Navbar from '../../Components/Navbar'
-import Produto from '../../Components/produto'
+import Head from '../Components/Head'
+import Navbar from '../Components/Navbar'
+import Produto from '../Components/produto'
 import Style from './Homepage.module.css'
 
 

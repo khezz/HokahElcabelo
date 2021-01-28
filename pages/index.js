@@ -1,4 +1,4 @@
-import Login from './src/pages/Login/login'
+import Login from './login'
 
 export default function Home() {
   return (
