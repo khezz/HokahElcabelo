@@ -1,4 +1,4 @@
-import Style from './Styles/produto.module.css'
+import Style from '../styles/produto.module.css'
 function produto({image,nome, preco}){
     return(
         <div className={Style.container}>

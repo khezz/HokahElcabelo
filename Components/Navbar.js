@@ -1,4 +1,4 @@
-import Style from './Styles/Navbar.module.css';
+import Style from '../styles/Navbar.module.css';
 import {library} from '@fortawesome/fontawesome-svg-core';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {fas} from '@fortawesome/free-solid-svg-icons';

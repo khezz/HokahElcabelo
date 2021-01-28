@@ -1,5 +1,5 @@
-import Head from 'next/head'
-import PropTypes from 'prop-types'
+import Head from 'next/head';
+
 function head({title}){
     return(
         <div>
