@@ -22,7 +22,7 @@ function login(){
                     Log In
                     <i> <FontAwesomeIcon icon="arrow-circle-right"/> </i>
                 </button>
-                <h3 className={Style.register}>Not registered yet? <Link href="./homepage"><a>Register!</a></Link></h3>
+                <h3 className={Style.register}>Not registered yet? <Link href="./produtos"><a>Register!</a></Link></h3>
             </form>
         </div>
     );

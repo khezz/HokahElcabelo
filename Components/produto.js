@@ -2,7 +2,7 @@ import Style from '../styles/produto.module.css'
 function produto({image,nome, preco}){
     return(
         <div className={Style.container}>
-            <img src={image}/>
+            <img href={image}/>
             <h3> {nome} </h3>
             <p>R$ {preco} </p>
             <div className={Style.buttonAddCart}>
