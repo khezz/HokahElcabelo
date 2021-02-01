@@ -1,5 +1,6 @@
 import Head from '../Components/Head'
 import Navbar from '../Components/Navbar'
+import TitleIndex from '../Components/title'
 import Produto from '../Components/produto'
 import Footer from '../Components/footer'
 import Style from '../styles/produtos.module.css'
@@ -10,10 +11,7 @@ function Homepage(){
         <div>
             <Head title="Hookah-Home"/>
             <Navbar />
-            <div className={Style.title}>
-                <div className={Style.logo}></div>
-                <h1>Hookah El cabelo</h1>
-            </div>
+            <TitleIndex />
             <div className={Style.container}>
                 <Produto
                     image = "/../public/img/essencia.jpg"

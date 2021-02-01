@@ -21,8 +21,11 @@ function login(){
                 <button className={Style.button} type ="subimit">
                     Log In
                     <i> <FontAwesomeIcon icon="arrow-circle-right"/> </i>
+                    <Link href="/produtos">
+                        <a></a>
+                    </Link>
                 </button>
-                <h3 className={Style.register}>Not registered yet? <Link href="./produtos"><a>Register!</a></Link></h3>
+                <h3 className={Style.register}>Not registered yet? <Link href="./register"><a>Register!</a></Link></h3>
             </form>
         </div>
     );
