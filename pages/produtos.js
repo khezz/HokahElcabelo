@@ -1,6 +1,7 @@
 import Head from '../Components/Head'
 import Navbar from '../Components/Navbar'
 import Produto from '../Components/produto'
+import Footer from '../Components/footer'
 import Style from '../styles/produtos.module.css'
 
 
@@ -10,41 +11,17 @@ function Homepage(){
             <Head title="Hookah-Home"/>
             <Navbar />
             <div className={Style.title}>
-                <img href="./src/midia/img/hookah-logo.jpg" /> 
+                <div className={Style.logo}></div>
                 <h1>Hookah El cabelo</h1>
             </div>
             <div className={Style.container}>
                 <Produto
-                    image = "./src/midia/img/essencia.jpg"
+                    image = "/../public/img/essencia.jpg"
                     nome = "Essencia Zig"
                     preco = "12,50"
                 />
-                <Produto
-                    image = "../midia/img/essencia.jpg"
-                    nome = "Essencia Zig"
-                    preco = "12,50"
-                />
-                
-                <Produto
-                    image = "../midia/img/essencia.jpg"
-                    nome = "Essencia Zig"
-                    preco = "12,50"
-                />
-                
-                <Produto
-                    image = "../midia/img/essencia.jpg"
-                    nome = "Essencia Zig"
-                    preco = "12,50"
-                />
-                
-                <Produto
-                    image = "../midia/img/essencia.jpg"
-                    nome = "Essencia Zig"
-                    preco = "12,50"
-                />
-                
-                
             </div>
+            <Footer/>
         </div>
     )
 } export default Homepage;

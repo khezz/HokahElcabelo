@@ -1,12 +1,24 @@
-import Style from '../styles/produto.module.css'
+import Style from '../styles/produto.module.css';
+import Image from 'next/image'
+import Link from 'next/link'
+
+
 function produto({image,nome, preco}){
     return(
         <div className={Style.container}>
-            <img href={image}/>
+            <Image
+                src = {image}
+                width = {230}
+                height = {220}
+                layout = "responsive"
+            />
+
             <h3> {nome} </h3>
-            <p>R$ {preco} </p>
+            <p>R$ {preco} </p> 
             <div className={Style.buttonAddCart}>
-                <a>add ao carinho</a>
+                <Link href="#">
+                    <a>add ao carinho</a>
+                </Link>
             </div>
         </div>
     );
