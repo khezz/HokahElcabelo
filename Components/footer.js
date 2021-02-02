@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import Style from '../styles/footer.module.css'
 import {library} from '@fortawesome/fontawesome-svg-core';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';

@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import Style from '../styles/login.module.css';
 import TitleIndex from '../Components/title';
-import Footer from '../Components/footer'
 import {library} from '@fortawesome/fontawesome-svg-core';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {fas} from '@fortawesome/free-solid-svg-icons';
@@ -30,7 +29,7 @@ function login(){
                         </i>
                     </button>
                 </Link>
-                
+
                 <h3 className={Style.register}>Not registered yet? <Link href="./register"><a>Register!</a></Link></h3>
             </form>
         </div>

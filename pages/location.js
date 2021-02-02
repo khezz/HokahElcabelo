@@ -3,9 +3,6 @@ import Navbar from '../Components/Navbar'
 import TitleIndex from '../Components/title'
 import Footer from '../Components/footer'
 import Style from '../styles/location.module.css'
-import StyleProdutos from '../styles/Produtos.module.css'
-
-
 
 export default function Location(){
     return(

@@ -6,7 +6,7 @@ import Footer from '../Components/footer'
 import Style from '../styles/produtos.module.css'
 
 
-function Produtos(){
+function produtos(){
     return(
         <div>
             <Head title="Hookah-Home"/>
@@ -22,4 +22,4 @@ function Produtos(){
             <Footer position="relative"/>
         </div>
     )
-} export default Produtos;
+} export default produtos;
