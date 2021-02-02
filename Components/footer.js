@@ -7,9 +7,11 @@ import {fas} from '@fortawesome/free-solid-svg-icons';
 library.add(fas);
 
 
-export default function footer(){
+export default function footer(position){
     return(
-        <div>
+        <div style={
+            position = {position}
+        }>
             <footer className={Style.container}>
                 <h3>
                     Hookah El Cabelo

@@ -1,5 +1,6 @@
 
 import Stylelogin from '../styles/login.module.css'
+import TitleIndex from '../Components/title'
 import {library} from '@fortawesome/fontawesome-svg-core';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {fas} from '@fortawesome/free-solid-svg-icons';
@@ -10,6 +11,7 @@ library.add(fas);
 function register(){
     return(
         <div className={Stylelogin.container}>
+            <TitleIndex position = "absolute"/>
             <form action="POST">
 
                 <div className={Stylelogin.inputIcon}>
@@ -44,13 +46,13 @@ function register(){
                     <i>
                         <FontAwesomeIcon icon =  "map-marked-alt"/>
                     </i>
-                    <input Type="text" placeholder="Endereço"/>
+                    <input Type="text" placeholder="Address"/>
                 </div>
                 <div className={Stylelogin.inputIcon}>
                     <i>
                         <FontAwesomeIcon icon =  "map-pin"/>
                     </i>
-                    <input Type="text" placeholder="00000-000"/>
+                    <input Type="text" placeholder="Zip code (00000-000)"/>
                 </div>
 
                 <button type="submit" className={Stylelogin.button}>

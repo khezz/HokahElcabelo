@@ -1,6 +1,6 @@
 .container {
     display: block;
-    position: absolute;
+    /* position: relative; */
     align-items: center;
     text-align: center;
     bottom: 0;

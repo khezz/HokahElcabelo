@@ -13,15 +13,16 @@
     align-items: center;
     justify-content: center;
     width: 50%;
-    height: 70%;
+    height: 60%;
+    margin-top: 30px;
 }
 .inputIcon {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 45px;
+    height: 40px;
     width: 80%;
-    margin: 10px;
+    margin: 5px;
     border-radius: 20px;
     background-color: Rgba(255,255,255,.8);
     color: rgba(0, 0, 0, .7);

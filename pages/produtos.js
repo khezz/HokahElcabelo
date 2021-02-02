@@ -6,12 +6,12 @@ import Footer from '../Components/footer'
 import Style from '../styles/produtos.module.css'
 
 
-function Homepage(){
+function Produtos(){
     return(
         <div>
             <Head title="Hookah-Home"/>
             <Navbar />
-            <TitleIndex />
+            <TitleIndex position="relative"/>
             <div className={Style.container}>
                 <Produto
                     image = "/../public/img/essencia.jpg"
@@ -19,7 +19,7 @@ function Homepage(){
                     preco = "12,50"
                 />
             </div>
-            <Footer/>
+            <Footer position="relative"/>
         </div>
     )
-} export default Homepage;
+} export default Produtos;
