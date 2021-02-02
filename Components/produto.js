@@ -11,6 +11,7 @@ function produto({image,nome, preco}){
                 width = {230}
                 height = {220}
                 layout = "responsive"
+                quality = {25}
             />
 
             <h3> {nome} </h3>
