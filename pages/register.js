@@ -1,6 +1,7 @@
 
 import Stylelogin from '../styles/login.module.css'
 import TitleIndex from '../Components/title'
+import Head from '../Components/Head'
 import {library} from '@fortawesome/fontawesome-svg-core';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {fas} from '@fortawesome/free-solid-svg-icons';
@@ -11,6 +12,7 @@ library.add(fas);
 function register(){
     return(
         <div className={Stylelogin.container}>
+            <Head title ="Hookah Register"/>
             <TitleIndex position = "absolute"/>
             <form action="POST">
 
@@ -65,7 +67,7 @@ function register(){
                 <p className={Stylelogin.register}>You from register? 
                     <Link href="/login"> 
                         <a>Log In! </a> 
-                    </Link>
+                    </Link> 
                 </p>
 
             </form>

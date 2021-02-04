@@ -9,7 +9,7 @@ import Style from '../styles/produtos.module.css'
 function produtos(){
     return(
         <div>
-            <Head title="Hookah-Home"/>
+            <Head title="Hookah Produtos"/>
             <Navbar />
             <TitleIndex position="relative"/>
             <div className={Style.container}>
