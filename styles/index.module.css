@@ -1,0 +1,90 @@
+.section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 15vh;
+    padding: 20px;
+    background-color: #ff0000;
+}
+.logo {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-image: url(../public/img/logoBombeiroCivil.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 10px;
+}
+.section h1 {
+    display: flex;
+    width: auto;
+    text-align: center;
+    padding: 10px;
+    color:#deffff;
+    text-transform: uppercase;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 100%;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../public/img/37.jpg);
+    background-position: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.divcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    margin: 10px auto;
+    border: 1.2px solid #fff;
+    border-radius: 10px;
+    color:#fff;
+    background-color: rgba(0,0,0,0.2);
+}
+.divcontent h3 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.divcontent p {
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.divcontent button {
+    border: none;
+    border-radius: 20px;
+    justify-content: space-between;
+    width: 90%;
+    height: auto;
+    cursor: pointer;
+    color: #000;
+    background-color: rgba(255,255,255,.8);
+    font-size: 16px;
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.divcontent i {
+    display: block;
+    position: relative;
+    float: right;
+    
+}

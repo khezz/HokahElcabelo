@@ -13,7 +13,7 @@ export default function footer(position){
         }>
             <footer className={Style.container}>
                 <h3>
-                    Hookah El Cabelo
+                    Etesp Ecofire
                 </h3>
 
                 <div>

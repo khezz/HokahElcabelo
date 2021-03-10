@@ -1,11 +1,57 @@
-import Login from './login'
 import Head from '../Components/Head'
+import Image from 'next/image'
+import Style from '../styles/index.module.css'
+import Footer from '../Components/footer'
+import Button from '../Components/btnFloat'
+import {library} from '@fortawesome/fontawesome-svg-core';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {fas} from '@fortawesome/free-solid-svg-icons';
+
+
+library.add(fas);
 
 export default function Home() {
   return (
    <div>
-     <Head title ="Hookah Login"/>
-     <Login/>
+      <Head title ="Arquivos de Aula"/>
+
+      {/* <Button/> */}
+      
+      <div className={Style.section}>
+        <div className={Style.logo}></div>
+        <h1> Etesp Ecofire </h1>        
+      </div>
+
+      <div className={Style.content}>
+        <div className={Style.divcontent}>
+          <h3>Welcome</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+          </p>
+          <button>
+            Atividades
+            <i>
+              <FontAwesomeIcon icon="arrow-right"/>
+            </i>
+          </button>
+        </div>
+        <div className={Style.divcontent}>
+          <h3>Welcome</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+          </p>
+          <button>
+            Instrutores
+            <i>
+              <FontAwesomeIcon icon="arrow-right"/>
+            </i>
+          </button>
+        </div>
+        
+        
+      </div>
+
+      <Footer/>
    </div>
   )
 }
