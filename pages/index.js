@@ -35,20 +35,7 @@ export default function Home() {
             </i>
           </button>
         </div>
-        <div className={Style.divcontent}>
-          <h3>Welcome</h3>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-          </p>
-          <button>
-            Instrutores
-            <i>
-              <FontAwesomeIcon icon="arrow-right"/>
-            </i>
-          </button>
-        </div>
-        
-        
+
       </div>
 
       <Footer/>
