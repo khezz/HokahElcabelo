@@ -67,7 +67,7 @@
     font-size: 14px;
     font-weight: 600;
 }
-.divcontent button {
+.divcontent a {
     border: none;
     border-radius: 20px;
     justify-content: space-between;

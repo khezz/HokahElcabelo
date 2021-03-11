@@ -1,0 +1,26 @@
+.linkdownload{
+    display: flex;
+    flex-direction: row;
+    height: 45px;
+    width: 100%;
+    background-color: rgba(255,255,255,.8);
+    color:#000;
+    cursor: pointer;
+}
+.linkdownload i {
+    display: flex;
+    float: right;
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+}
