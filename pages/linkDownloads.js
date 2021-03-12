@@ -17,7 +17,7 @@ export default function Links(){
             <Title/>
             <div className={StyleIndex.content}>
                 <div className={Style.divcontent}>
-                    <h2>Legislação</h2>
+                    <h2>Modulos</h2>
                     <ul className={Style.content}>
                         <a className={Style.linkdownload} href="../public/arquivos/Legislação/aula01/Legislação.ppt" download>
                             Primeiros Socorros
