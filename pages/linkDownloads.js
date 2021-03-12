@@ -22,49 +22,49 @@ export default function Links(){
                         <a className={Style.linkdownload} href="../public/arquivos/Legislação/aula01/Legislação.ppt" download>
                             Primeiros Socorros
                             <i>
-                                <FontAwesomeIcon icon="arrow-circle-rigth"/>
+                                <FontAwesomeIcon icon="arrow-circle-right"/>
                             </i>
                         </a>
                         <a className={Style.linkdownload} href="../public/arquivos/Legislação/aula01/Legislação.ppt" download>
                             Preveção e combate a incêndio
                             <i>
-                                <FontAwesomeIcon icon="arrow-circle-rigth"/>
+                                <FontAwesomeIcon icon="arrow-circle-right"/>
                             </i>
                         </a>
                         <a className={Style.linkdownload} href="../public/arquivos/Legislação/aula01/Legislação.ppt" download>
                             Produtos Perigosos
                             <i>
-                                <FontAwesomeIcon icon="arrow-circle-rigth"/>
+                                <FontAwesomeIcon icon="arrow-circle-right"/>
                             </i>
                         </a>
                         <a className={Style.linkdownload} href="../public/arquivos/Legislação/aula01/Legislação.ppt" download>
                             Libras
                             <i>
-                                <FontAwesomeIcon icon="arrow-circle-rigth"/>
+                                <FontAwesomeIcon icon="arrow-circle-right"/>
                             </i>
                         </a>
                         <a className={Style.linkdownload} href="../public/arquivos/Legislação/aula01/Legislação.ppt" download>
                             Trabalho em altura
                             <i>
-                                <FontAwesomeIcon icon="arrow-circle-rigth"/>
+                                <FontAwesomeIcon icon="arrow-circle-right"/>
                             </i>
                         </a>
                         <a className={Style.linkdownload} href="../public/arquivos/Legislação/aula01/Legislação.ppt" download>
                             Espaço confinado
                             <i>
-                                <FontAwesomeIcon icon="arrow-circle-rigth"/>
+                                <FontAwesomeIcon icon="arrow-circle-right"/>
                             </i>
                         </a>
                         <a className={Style.linkdownload} href="../public/arquivos/Legislação/aula01/Legislação.ppt" download>
                             Cabos, voltas e nós / Comunicação
                             <i>
-                                <FontAwesomeIcon icon="arrow-circle-rigth"/>
+                                <FontAwesomeIcon icon="arrow-circle-right"/>
                             </i>
                         </a>
                         <a className={Style.linkdownload} href="../public/arquivos/Legislação/aula01/Legislação.ppt" download>
                             Legislação
                             <i>
-                                <FontAwesomeIcon icon="arrow-circle-rigth"/>
+                                <FontAwesomeIcon icon="arrow-circle-right"/>
                             </i>
                         </a>
                     </ul>
