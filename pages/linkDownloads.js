@@ -20,9 +20,51 @@ export default function Links(){
                     <h2>Legislação</h2>
                     <ul className={Style.content}>
                         <a className={Style.linkdownload} href="../public/arquivos/Legislação/aula01/Legislação.ppt" download>
-                            Aula 01 - Download do material
+                            Primeiros Socorros
                             <i>
-                                <FontAwesomeIcon icon="arrow-circle-down"/>
+                                <FontAwesomeIcon icon="arrow-circle-rigth"/>
+                            </i>
+                        </a>
+                        <a className={Style.linkdownload} href="../public/arquivos/Legislação/aula01/Legislação.ppt" download>
+                            Preveção e combate a incêndio
+                            <i>
+                                <FontAwesomeIcon icon="arrow-circle-rigth"/>
+                            </i>
+                        </a>
+                        <a className={Style.linkdownload} href="../public/arquivos/Legislação/aula01/Legislação.ppt" download>
+                            Produtos Perigosos
+                            <i>
+                                <FontAwesomeIcon icon="arrow-circle-rigth"/>
+                            </i>
+                        </a>
+                        <a className={Style.linkdownload} href="../public/arquivos/Legislação/aula01/Legislação.ppt" download>
+                            Libras
+                            <i>
+                                <FontAwesomeIcon icon="arrow-circle-rigth"/>
+                            </i>
+                        </a>
+                        <a className={Style.linkdownload} href="../public/arquivos/Legislação/aula01/Legislação.ppt" download>
+                            Trabalho em altura
+                            <i>
+                                <FontAwesomeIcon icon="arrow-circle-rigth"/>
+                            </i>
+                        </a>
+                        <a className={Style.linkdownload} href="../public/arquivos/Legislação/aula01/Legislação.ppt" download>
+                            Espaço confinado
+                            <i>
+                                <FontAwesomeIcon icon="arrow-circle-rigth"/>
+                            </i>
+                        </a>
+                        <a className={Style.linkdownload} href="../public/arquivos/Legislação/aula01/Legislação.ppt" download>
+                            Cabos, voltas e nós / Comunicação
+                            <i>
+                                <FontAwesomeIcon icon="arrow-circle-rigth"/>
+                            </i>
+                        </a>
+                        <a className={Style.linkdownload} href="../public/arquivos/Legislação/aula01/Legislação.ppt" download>
+                            Legislação
+                            <i>
+                                <FontAwesomeIcon icon="arrow-circle-rigth"/>
                             </i>
                         </a>
                     </ul>
