@@ -16,7 +16,7 @@ export default function Links(){
             <Head title="Links Downloads"/>
             <Title/>
             <div className={StyleIndex.content}>
-                <div className={StyleIndex.divcontent}>
+                <div className={Style.divcontent}>
                     <h2>Legislação</h2>
                     <ul className={Style.content}>
                         <a className={Style.linkdownload} href="../public/arquivos/Legislação/aula01/Legislação.ppt" download>
